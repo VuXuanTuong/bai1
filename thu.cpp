@@ -7,10 +7,7 @@ void gptb2(float *a, float *b, float *c)
 	float delta=( (*b)*(*b)-4*(*a)*(*c)),x1,x2;
 	if( delta < 0 )
 	printf("\n\t PTVN ");
-	else if(delta==0)
-	{
-		printf("\n\tPT co nghiem  %.2f",-(*b)/2*(*a));
-	}
+
 	 else 
 	 {
 	 	 x1=(-sqrt(delta)-(*b))/2*(*a);
